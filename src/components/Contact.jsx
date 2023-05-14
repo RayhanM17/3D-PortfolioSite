@@ -37,7 +37,7 @@ const Contact = () => {
         to_email: 'kinggittyback@gmail.com',
         message: formData.message
       },
-      import.meta.env.VITE_EMAILJS_KEY
+      'vFN_hQjd3Hl792WKG'
     )
     .then(() => {
       setIsLoading(false)
